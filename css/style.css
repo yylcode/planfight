@@ -1,0 +1,149 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+ 
+body {
+	background-color: black;
+	overflow: hidden;
+}
+
+#box {
+	height: 500px;
+	width: 300px;
+	border: 10px solid white;
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+	 
+}
+
+#box .title {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	margin: 45px auto;
+	font-weight: bold;
+	animation: changecolor 2s infinite;
+}
+
+@keyframes changecolor {
+	0% {
+		color: red;
+	}
+	50% {
+		color: pink;
+	}
+	100% {
+		color: white;
+	}
+}
+
+#box .start p {
+	width: 150px;
+	height: 40px;
+	background-color: #FFFFFF;
+	line-height: 40px;
+	margin: 45px auto;
+	font-size: 14px;
+	text-align: center;
+}
+
+#box .start p:hover {
+	cursor: pointer;
+	background-color: pink;
+}
+
+.plane {
+	position: absolute;
+	width: 60px;
+	height: 36px;
+}
+
+.Bullet {
+	position: absolute;
+	width:10px;
+	height: 30px;
+}
+
+.ememy {
+	position: absolute;
+}
+
+.overdivname {
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	background-color: white;
+	color: white;
+	padding: 20px;
+	top: 10px;
+	left: 20px;
+}
+
+.scroll{
+	position: absolute;	
+	right: 0px;
+	top: 20px;
+	color: white;
+	 
+}
+.oTip{
+	position: absolute;
+	width: 200px;
+	margin: 80px 50px;
+	height: 340px;
+	background-color: white;
+	 
+	 
+}
+ 
+.tTitle{
+	font-size: 30px;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+.tRank,.tModel,.tScroll{
+	font-weight: bold;
+	font-family: "arial narrow";
+	font-size: 20px;
+	text-align: center;
+	margin-top: 18px;
+	 
+}
+.pScroll{
+	text-align: center;
+	color: red;
+	margin-top: 10px;
+	letter-spacing: 3px;
+}
+.pModel{
+	text-align: center;
+	color: red;
+	margin-top: 10px;
+	letter-spacing: 3px;
+}
+.pRank{
+	text-align: center;
+	color: gold;
+	margin-top: 10px;
+	letter-spacing: 3px;
+}
+.reStart{
+	color: red;
+	width: 100px;
+	height: 35px;
+	border-radius: 2px;
+	margin: 10px 45px;
+	
+}
+.author{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	font-size: 14px;
+	color: white;
+}
